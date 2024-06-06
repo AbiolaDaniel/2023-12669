@@ -1,0 +1,134 @@
+/* Reset styles */
+body, html {
+    margin: 0;
+    background-image: url(R.jpg);
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+
+    /* Navigation Bar */
+    nav {
+    background-color: #333;
+    padding: 10px;
+    }
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    nav ul li {
+    display: inline;
+    margin-right: 10px;
+    }
+    nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    }
+
+    /* Hero Section */
+    .hero {
+    background-image: url('W.jpg');
+    background-size: cover;
+    color: #ff1717;
+    padding: 100px;
+    text-align: center;
+    }
+
+    /* About Me Section */
+    .about {
+    color: azure;
+    padding: 1px;
+    margin: 70px;
+    font-size: 18px;
+    }
+
+    .MySkills{
+    margin: 70px;
+    font-size: 17px;
+    padding: 10px;
+    color: #fff;
+    }
+
+    /* Projects Section */
+    .projects {
+    padding: 50px;
+    }
+
+    .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    }
+    
+    /* Contact Section */
+    .contact {
+    padding: 50px;
+    }
+    .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    }
+
+    input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    }
+    
+    button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    }
+
+    .skills {
+        margin: 20px 0;
+        padding: 50px;
+      }
+      
+      .skill {
+        color: #ccc;
+        margin-bottom: 20px;
+      }
+      
+      .skill h3 {
+        margin-bottom: 5px;
+      }
+      
+      .progress-bar {
+        width: 100%;
+        height: 20px;
+        background-color: #f0f0f0;
+        border-radius: 19px;
+      }
+      
+      .progress {
+        height: 100%;
+        border-radius: 19px;
+        background-color: #4CAF50; /* Green */
+      }
+      
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      
+      .footer-buttons a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+      
+      .footer-buttons a:hover {
+        text-decoration: underline;
+      }
+      
+      .copyright p {
+        margin-top: 10px;
+        font-size: 14px;
+      }
+    
